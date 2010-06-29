@@ -1,0 +1,186 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>List of Tribes</title>
+<script type="text/javascript">
+
+    
+xmlHttp = null;
+var body;
+var strt;
+var response;
+var data;
+var data_original;
+var db;
+var rows = null;
+                var tribe;
+                var latitude;
+                var longitude;
+				var coords;
+
+window.onload = function()
+{
+
+        
+xmlHttp = new XMLHttpRequest();
+
+
+if (xmlHttp != null) 
+{
+xmlHttp.open("GET", "http://seer.vndv.com/tribe_name_iphone.txt");
+xmlHttp.send(null);
+        
+  xmlHttp.onreadystatechange = function () 
+  {
+	if(xmlHttp.readyState==4)
+	{
+        strt = xmlHttp.responseText;
+        response = strt.split(",");
+		//response.sort();
+     
+	 
+		
+
+	 
+	 
+            
+            data= [{title:response[0], hasChild:false}];
+            for(i=1;i<response.length-1;i++)
+            {
+            data = data.concat({title:response[i], hasChild:false});            
+            }
+			data_original = data;
+
+		var search = Titanium.UI.createSearchBar({id:'textfield',barColor:'#777777', showCancel:true});
+		search.addEventListener('change', function(e)
+		{
+		   	e.value // search string as user types
+			if (Titanium.Platform.name == 'android') {
+			   	body.filterView(e.value);
+			}
+		});
+		search.addEventListener('cancel', function(e)
+		{
+			body.setData( data_original );
+		   	search.blur();
+		});
+		search.addEventListener('return', function(e)
+		{
+			//Titanium.UI.createAlertDialog({title:'Reminder', message:'Inside return'}).show();
+			
+			var search_results = [];
+			
+			//data1 =data.slice();
+			
+			
+			
+            //data= [{title:response[0], hasChild:false}];
+			
+
+			
+			for( var i = 0; i < response.length; i++ ) 
+			{
+			if( response[i].toLowerCase().indexOf( e.value.toLowerCase() ) != -1)
+				{
+					search_results.push( { title : response[i], hasChild : false } );
+					//Titanium.UI.createAlertDialog({title:'Reminder', message:'Data is '+response[i]}).show();
+					
+					//data = data.concat({title:response[i], hasChild:false}); 
+				}
+			}
+			//applyFilter( search_filter );
+						
+			//data = search_filter.slice();
+			body.setData( search_results );
+			search.blur();
+		});
+					 
+							 
+									 
+											 
+													 
+															 
+																	 
+																			         
+            body = Titanium.UI.createTableView({
+                data:data,
+                
+                
+            },function(eventObject)
+            {
+				var idx = eventObject.index;
+				switch(idx)
+				{
+					default:
+						tribe = eventObject.rowData.title;                
+						Titanium.Geolocation.watchPosition(
+						function(pos)
+						{
+						coords = pos.coords;
+						latitude = coords.latitude;
+						longitude = coords.longitude;
+						},
+
+						function()
+						{
+						},
+						{enableHighAccuracy:true}
+						);
+             
+                 
+						
+//						Titanium.UI.createAlertDialog({title:'Reminder', message:'You lastly joined the Tribe ' + tribe }).show();
+// TRYING 
+						db = Titanium.Database.open('mydb7');
+						//db.execute('DROP TABLE DATABASETEST');
+						db.execute('CREATE TABLE IF NOT EXISTS DATABASETEST (LATITUDE FLOAT,LONGITUDE FLOAT,TRIBE TEXT)');
+						db.execute('DELETE FROM DATABASETEST');    
+						db.execute('INSERT INTO DATABASETEST (LATITUDE,LONGITUDE,TRIBE) VALUES(?,?,?)',latitude,longitude,tribe);
+						Titanium.API.notice(latitude+" "+longitude+" "+tribe);
+						Titanium.Analytics.featureEvent('views.composite.1');
+						var win = Titanium.UI.createWindow({url:'view9.html',title:'Join Tribe?'});
+						win.open({animated:true});
+						break;
+            }    
+			});
+                
+        var views = Titanium.UI.currentWindow.getViews();
+		if (Titanium.Platform.name == 'android') {
+			body.setFilterAttribute("title");
+		}
+		
+		
+		
+		
+
+		
+		
+		
+		
+		
+		
+		
+		
+		// create composite view of table view + search bar
+		var compositeView = Titanium.UI.createCompositeView();
+		compositeView.addView(views[0],{left:0,top:0,height:52});
+		compositeView.addView(body,{top:53,left:0});
+		// add and show the view
+		Titanium.UI.currentWindow.addView(compositeView);
+		Titanium.UI.currentWindow.showView(compositeView);
+    }
+  }
+} 
+};
+
+</script>
+</head>
+
+<body>
+<div id="result"></div>
+<div id="textfield" style="height:50px;width:100%"></div>
+
+</body>
+</html>
+
+

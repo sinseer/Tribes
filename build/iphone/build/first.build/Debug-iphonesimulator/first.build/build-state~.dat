@@ -1,0 +1,645 @@
+Tfirst
+v7
+r0
+t291327045.823933
+cCheck dependencies
+cProcessInfoPlistFile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Info.plist Info.plist
+cPhaseScriptExecution "Run Script" /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+cCompileXIB /Applications/first/build/iphone/Resources/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/first.app/Default.png Resources/Default.png
+cCopyPlistFile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tiapp.plist Resources/tiapp.plist
+cCopyPlistFile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Entitlements.plist Resources/Entitlements.plist
+cProcessPCH /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/first_Prefix-crvgldzbcdesiveeewsdecvcaidt/first_Prefix.pch.gch first_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/main.o /Applications/first/build/iphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/ApplicationRouting.o /Applications/first/build/iphone/Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first normal i386
+cGenerateDSYMFile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app.dSYM /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first
+cTouch /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app
+
+N/Applications/first/build/iphone/Classes/ApplicationRouting.h
+c000000004BAD14B100000000000002D2
+t1269634225
+s722
+i<Foundation/Foundation.h>
+
+N/Applications/first/build/iphone/Classes/ApplicationRouting.m
+c000000004BAD14B100000000000087C9
+t1269634225
+s34761
+i<Foundation/Foundation.h>
+i"ApplicationRouting.h"
+
+N/Applications/first/build/iphone/Resources/Default.png
+c000000004BAD14B10000000000016DBB
+t1269634225
+s93627
+
+N/Applications/first/build/iphone/Resources/Entitlements.plist
+c000000004B58A2DA00000000000000E1
+t1264100058
+s225
+
+N/Applications/first/build/iphone/Resources/MainWindow.xib
+c000000004BAD14B300000000000059AD
+t1269634227
+s22957
+
+N/Applications/first/build/iphone/Resources/libTitanium.a
+c000000004BAD14B300000000006932A8
+t1269634227
+s6894248
+
+N/Applications/first/build/iphone/Resources/tiapp.plist
+c000000004BAD14B3000000000000036D
+t1269634227
+s877
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app
+t1269634245
+s612
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app.dSYM
+t1269634245
+s102
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default.png
+t1269634236
+s93627
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Entitlements.plist
+t1269634236
+s62
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Info.plist
+t1269634233
+s634
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/MainWindow.nib
+t1269634239
+s2113
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/PkgInfo
+t1269634232
+s8
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first
+t1269634245
+s848904
+
+N/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tiapp.plist
+t1269634236
+s877
+
+N/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/ApplicationRouting.o
+t1269634244
+s47956
+
+N/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/first.LinkFileList
+c000000004BAD14B800000000000000EE
+t1269634232
+s238
+
+N/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/main.o
+t1269634244
+s9832
+
+N/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+c000000004BAD14B8000000000000028F
+t1269634232
+s655
+
+N/Applications/first/build/iphone/first_Prefix.pch
+c000000004B58A2DA0000000000000086
+t1264100058
+s134
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Applications/first/build/iphone/main.m
+c000000004BAD14B100000000000003EE
+t1269634225
+s1006
+i<UIKit/UIKit.h>
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000004A1221B6000000000005E250
+t1242702262
+s385616
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000004A122255000000000019A6D0
+t1242702421
+s1681104
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004A12232A00000000001D2A20
+t1242702634
+s1911328
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004A1220EF00000000000380E0
+t1242702063
+s229600
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk
+c000000004ABE051D00000000000000EE
+t1253967133
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004A0BB032000000000000FBE0
+t1242279986
+s64480
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004A0DADCB0000000000180330
+t1242410443
+s1573680
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004A0BAA8E00000000000F49A0
+t1242278542
+s1001888
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A0BAA26000000000026DB00
+t1242278438
+s2546432
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004A0CD38B0000000000041070
+t1242354571
+s266352
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A0BAB370000000000260C20
+t1242278711
+s2493472
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAB250000000000001355
+t1242278693
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000004A0E25B700000000000BD650
+t1242441143
+s775760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c000000004A0BC1D70000000000066700
+t1242284503
+s419584
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004A0BAB9B0000000000015F10
+t1242278811
+s89872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004A0BA939000000000004BD60
+t1242278201
+s310624
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBB000000000000075E
+t1242349243
+s1886
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A0CBF5F0000000001432D80
+t1242349407
+s21179776
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/lib/libsqlite3.dylib
+c000000004A0BA78C00000000000C2370
+t1242277772
+s795504
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk/usr/lib/libz.dylib
+c00000000476CCCD10000000000006EE8
+t1198312657
+s28392
+
+N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004A67D2580000000000CF0BE0
+t1248318040
+s13568992
+
+N/var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/first_Prefix-crvgldzbcdesiveeewsdecvcaidt/first_Prefix.pch.gch
+t1269634243
+s12948880
+
+NInfo.plist
+c000000004BAD14B300000000000003B7
+t1269634227
+s951
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies291327029#291327032#0(0"0(0#1#0"7598805550879240192#0"0#
+
+CCompileC build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/ApplicationRouting.o /Applications/first/build/iphone/Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291327043.902065
+e291327044.209287
+r1
+xCompileC
+xbuild/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/ApplicationRouting.o
+x/Applications/first/build/iphone/Classes/ApplicationRouting.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Applications/first/build/iphone/Classes/ApplicationRouting.m291327043#291327044#0(0"0(0#0#61"/Applications/first/build/iphone/Classes/ApplicationRouting.m4301200840#1873"    cd /Applications/first/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=ef8f7a32-ed9e-4f97-beec-683766ea9334 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-generated-files.hmap -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-own-target-headers.hmap -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-all-target-headers.hmap -iquote /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-project-headers.hmap -F/Applications/first/build/iphone/build/Debug-iphonesimulator -I/Applications/first/build/iphone/build/Debug-iphonesimulator/include -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources/i386 -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources -include /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/first_Prefix-crvgldzbcdesiveeewsdecvcaidt/first_Prefix.pch -c /Applications/first/build/iphone/Classes/ApplicationRouting.m -o /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/ApplicationRouting.o0#
+
+CCompileC build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/main.o /Applications/first/build/iphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s291327043.900914
+e291327044.167023
+r1
+xCompileC
+xbuild/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/main.o
+x/Applications/first/build/iphone/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Applications/first/build/iphone/main.m291327043#291327044#0(0"0(0#0#39"/Applications/first/build/iphone/main.m4301200840#1837"    cd /Applications/first/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=ef8f7a32-ed9e-4f97-beec-683766ea9334 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-generated-files.hmap -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-own-target-headers.hmap -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-all-target-headers.hmap -iquote /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-project-headers.hmap -F/Applications/first/build/iphone/build/Debug-iphonesimulator -I/Applications/first/build/iphone/build/Debug-iphonesimulator/include -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources/i386 -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources -include /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/first_Prefix-crvgldzbcdesiveeewsdecvcaidt/first_Prefix.pch -c /Applications/first/build/iphone/main.m -o /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Applications/first/build/iphone/Resources/MainWindow.xib
+s291327036.204275
+e291327040.225728
+r1
+xCompileXIB
+x/Applications/first/build/iphone/Resources/MainWindow.xib
+lSLF07#2@35"CompileXIB Resources/MainWindow.xib291327036#291327040#0(0"0(0#0#57"/Applications/first/build/iphone/Resources/MainWindow.xib13229753409208424#470"    cd /Applications/first/build/iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/MainWindow.nib /Applications/first/build/iphone/Resources/MainWindow.xib0#
+
+CCopyPlistFile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Entitlements.plist Resources/Entitlements.plist
+s291327036.546859
+e291327036.614964
+r1
+xCopyPlistFile
+x/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Entitlements.plist
+xResources/Entitlements.plist
+lSLF07#2@33"Copy Resources/Entitlements.plist291327036#291327036#0(0"0(0#0#61"/Applications/first/build/iphone/Resources/Entitlements.plist4301200840#389"    cd /Applications/first/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/Entitlements.plist --outdir /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app0#
+
+CCopyPlistFile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tiapp.plist Resources/tiapp.plist
+s291327036.240234
+e291327036.546746
+r1
+xCopyPlistFile
+x/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tiapp.plist
+xResources/tiapp.plist
+lSLF07#2@26"Copy Resources/tiapp.plist291327036#291327036#0(0"0(0#0#54"/Applications/first/build/iphone/Resources/tiapp.plist4301200840#382"    cd /Applications/first/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/tiapp.plist --outdir /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app0#
+
+CCpResource build/Debug-iphonesimulator/first.app/Default.png Resources/Default.png
+s291327036.205130
+e291327036.297836
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/first.app/Default.png
+xResources/Default.png
+lSLF07#2@26"Copy Resources/Default.png291327036#291327036#0(0"0(0#0#54"/Applications/first/build/iphone/Resources/Default.png4301200840#445"    cd /Applications/first/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Applications/first/build/iphone/Resources/Default.png /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app0#
+
+CGenerateDSYMFile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app.dSYM /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first
+s291327045.443175
+e291327045.809332
+r1
+xGenerateDSYMFile
+x/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app.dSYM
+x/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first
+lSLF07#2@103"GenerateDSYMFile build/Debug-iphonesimulator/first.app.dSYM build/Debug-iphonesimulator/first.app/first291327045#291327045#0(0"0(0#0#76"/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first4301200840#359"    cd /Applications/first/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first -o /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app.dSYM0#
+
+CLd /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first normal i386
+s291327044.209404
+e291327045.442899
+r1
+xLd
+x/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first
+xnormal
+xi386
+lSLF07#2@81"Link /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first291327044#291327045#0(0"0(0#0#0"4301200840#1245"    cd /Applications/first/build/iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -L/Applications/first/build/iphone/build/Debug-iphonesimulator -L/Applications/first/build/iphone -LResources -F/Applications/first/build/iphone/build/Debug-iphonesimulator -filelist /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/first.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -ObjC -framework SystemConfiguration -framework AVFoundation -framework CoreLocation -lz -framework AudioToolbox -framework Foundation -framework UIKit -framework MediaPlayer -framework CoreGraphics -lTitanium -lsqlite3 -framework MessageUI -framework OpenGLES -framework QuartzCore -framework MapKit -framework AddressBook -framework AddressBookUI -framework CFNetwork -framework MobileCoreServices -o /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/first0#
+
+CPhaseScriptExecution "Run Script" /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+s291327032.112139
+e291327036.203158
+r1
+xPhaseScriptExecution
+xRun Script
+x/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Script-B4EA72B50FBC96AA005AA7FB.sh
+oiphoneos-optimize: Converting plists to binary in /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/
+oiphoneos-optimize: Converted to binary plist: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Info.plist
+oiphoneos-optimize: Optimizing PNGs in /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon.png
+o   Total length of data found in IDAT chunks    =     4181
+o   Adding an opaque alpha channel.
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4726
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon-pngcrush.png
+o     (13.04% IDAT increase)
+o     (13.12% filesize increase)
+o
+o   CPU time used = 0.010 seconds (decoding 0.001,
+o          encoding 0.003, other 0.006 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat.png
+o   Total length of data found in IDAT chunks    =      745
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      739
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat-pngcrush.png
+o     (0.81% IDAT reduction)
+o     (0.11% filesize increase)
+o
+o   CPU time used = 0.006 seconds (decoding 0.000,
+o          encoding 0.002, other 0.003 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox.png
+o   Total length of data found in IDAT chunks    =     1650
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1844
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox-pngcrush.png
+o     (11.76% IDAT increase)
+o     (12.30% filesize increase)
+o
+o   CPU time used = 0.005 seconds (decoding 0.000,
+o          encoding 0.001, other 0.004 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default.png
+o   Total length of data found in IDAT chunks    =    90856
+o   Adding an opaque alpha channel.
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =    90594
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default-pngcrush.png
+o     (0.29% IDAT reduction)
+o     (0.27% filesize reduction)
+o
+o   CPU time used = 0.752 seconds (decoding 0.010,
+o          encoding 0.729, other 0.013 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo.png
+o   Total length of data found in IDAT chunks    =    87739
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =    39199
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo-pngcrush.png
+o     (55.32% IDAT reduction)
+o     (55.32% filesize reduction)
+o
+o   CPU time used = 0.342 seconds (decoding 0.013,
+o          encoding 0.313, other 0.016 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq.png
+o   Total length of data found in IDAT chunks    =     1241
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1270
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq-pngcrush.png
+o     (2.34% IDAT increase)
+o     (0.97% filesize increase)
+o
+o   CPU time used = 0.007 seconds (decoding 0.000,
+o          encoding 0.003, other 0.004 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join.png
+o   Total length of data found in IDAT chunks    =     4583
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4626
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join-pngcrush.png
+o     (0.94% IDAT increase)
+o     (0.72% filesize increase)
+o
+o   CPU time used = 0.007 seconds (decoding 0.000,
+o          encoding 0.003, other 0.004 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map.png
+o   Total length of data found in IDAT chunks    =     1588
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1556
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map-pngcrush.png
+o     (2.02% IDAT reduction)
+o     (0.50% filesize reduction)
+o
+o   CPU time used = 0.007 seconds (decoding 0.000,
+o          encoding 0.003, other 0.004 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background.png
+o   Total length of data found in IDAT chunks    =   420304
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =   445297
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background-pngcrush.png
+o     (5.95% IDAT increase)
+o     (5.91% filesize increase)
+o
+o   CPU time used = 0.742 seconds (decoding 0.028,
+o          encoding 0.681, other 0.033 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background.png
+o
+o | pngcrush 1.6.4
+o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
+o |    Copyright (C) 2005      Greg Roelofs
+o | This is a free, open-source program.  Permission is irrevocably
+o | granted to everyone to use this version of pngcrush without
+o | payment of any fee.
+o | Executable name is pngcrush
+o | It was built with libpng version 1.2.7, and is
+o | running with  libpng version 1.2.7 - September 12, 2004 (header)
+o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
+o |    Copyright (C) 1996, 1997 Andreas Dilger,
+o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
+o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
+o |    Jean-loup Gailly and Mark Adler.
+o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
+o
+o   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault.png
+o   Total length of data found in IDAT chunks    =     3933
+o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972
+o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault-pngcrush.png
+o     (51.84% IDAT increase)
+o     (51.03% filesize increase)
+o
+o   CPU time used = 0.028 seconds (decoding 0.003,
+o          encoding 0.017, other 0.007 seconds)
+o
+oiphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault.png
+lSLF07#2@36"Run custom shell script 'Run Script'291327032#291327036#0(14563"iphoneos-optimize: Converting plists to binary in /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/iphoneos-optimize: Converted to binary plist: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Info.plistiphoneos-optimize: Optimizing PNGs in /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/ | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon.png   Total length of data found in IDAT chunks    =     4181   Adding an opaque alpha channel.   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4726   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon-pngcrush.png     (13.04% IDAT increase)     (13.12% filesize increase)   CPU time used = 0.010 seconds (decoding 0.001,          encoding 0.003, other 0.006 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat.png   Total length of data found in IDAT chunks    =      745   IDAT length with method 120 (fm 1 zl 9 zs 1) =      739   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat-pngcrush.png     (0.81% IDAT reduction)     (0.11% filesize increase)   CPU time used = 0.006 seconds (decoding 0.000,          encoding 0.002, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox.png   Total length of data found in IDAT chunks    =     1650   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1844   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox-pngcrush.png     (11.76% IDAT increase)     (12.30% filesize increase)   CPU time used = 0.005 seconds (decoding 0.000,          encoding 0.001, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default.png   Total length of data found in IDAT chunks    =    90856   Adding an opaque alpha channel.   IDAT length with method 120 (fm 1 zl 9 zs 1) =    90594   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default-pngcrush.png     (0.29% IDAT reduction)     (0.27% filesize reduction)   CPU time used = 0.752 seconds (decoding 0.010,          encoding 0.729, other 0.013 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo.png   Total length of data found in IDAT chunks    =    87739   IDAT length with method 120 (fm 1 zl 9 zs 1) =    39199   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo-pngcrush.png     (55.32% IDAT reduction)     (55.32% filesize reduction)   CPU time used = 0.342 seconds (decoding 0.013,          encoding 0.313, other 0.016 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq.png   Total length of data found in IDAT chunks    =     1241   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1270   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq-pngcrush.png     (2.34% IDAT increase)     (0.97% filesize increase)   CPU time used = 0.007 seconds (decoding 0.000,          encoding 0.003, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join.png   Total length of data found in IDAT chunks    =     4583   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4626   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join-pngcrush.png     (0.94% IDAT increase)     (0.72% filesize increase)   CPU time used = 0.007 seconds (decoding 0.000,          encoding 0.003, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map.png   Total length of data found in IDAT chunks    =     1588   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1556   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map-pngcrush.png     (2.02% IDAT reduction)     (0.50% filesize reduction)   CPU time used = 0.007 seconds (decoding 0.000,          encoding 0.003, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background.png   Total length of data found in IDAT chunks    =   420304   IDAT length with method 120 (fm 1 zl 9 zs 1) =   445297   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background-pngcrush.png     (5.95% IDAT increase)     (5.91% filesize increase)   CPU time used = 0.742 seconds (decoding 0.028,          encoding 0.681, other 0.033 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault.png   Total length of data found in IDAT chunks    =     3933   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault-pngcrush.png     (51.84% IDAT increase)     (51.03% filesize increase)   CPU time used = 0.028 seconds (decoding 0.003,          encoding 0.017, other 0.007 seconds)iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault.png245(13@122"iphoneos-optimize: Converting plists to binary in /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/291327033#0#122#0(1@0"0(13@128"iphoneos-optimize: Converted to binary plist: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Info.plist291327033#122#128#0(1@0"0(13@110"iphoneos-optimize: Optimizing PNGs in /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/291327033#250#110#0(1@0"0(13@18" | pngcrush 1.6.4291327033#361#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327033#379#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327033#436#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327033#479#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327033#546#63#0(1@0"0(13@23" | payment of any fee.291327033#609#23#0(1@0"0(13@31" | Executable name is pngcrush291327033#632#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327033#663#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327033#713#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327033#781#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327033#839#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327033#886#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327033#946#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327033#1009#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327033#1048#77#0(1@0"0(13@100"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon.png291327033#1126#100#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     4181291327033#1226#59#0(1@0"0(13@35"   Adding an opaque alpha channel.291327033#1285#35#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4726291327033#1320#59#0(1@0"0(13@143"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon-pngcrush.png291327033#1379#143#0(1@0"0(13@28"     (13.04% IDAT increase)291327033#1522#28#0(1@0"0(13@32"     (13.12% filesize increase)291327033#1550#32#0(1@0"0(13@50"   CPU time used = 0.010 seconds (decoding 0.001,291327033#1583#50#0(1@0"0(13@47"          encoding 0.003, other 0.006 seconds)291327033#1633#47#0(1@0"0(13@117"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/appicon.png291327033#1681#117#0(1@0"0(13@18" | pngcrush 1.6.4291327034#1799#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327034#1817#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327034#1874#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327034#1917#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327034#1984#63#0(1@0"0(13@23" | payment of any fee.291327034#2047#23#0(1@0"0(13@31" | Executable name is pngcrush291327034#2070#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327034#2101#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327034#2151#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327034#2219#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327034#2277#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327034#2324#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327034#2384#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327034#2447#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327034#2486#77#0(1@0"0(13@97"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat.png291327034#2564#97#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      745291327034#2661#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      739291327034#2720#59#0(1@0"0(13@140"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat-pngcrush.png291327034#2779#140#0(1@0"0(13@28"     (0.81% IDAT reduction)291327034#2919#28#0(1@0"0(13@31"     (0.11% filesize increase)291327034#2947#31#0(1@0"0(13@50"   CPU time used = 0.006 seconds (decoding 0.000,291327034#2979#50#0(1@0"0(13@47"          encoding 0.002, other 0.003 seconds)291327034#3029#47#0(1@0"0(13@114"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/chat.png291327034#3077#114#0(1@0"0(13@18" | pngcrush 1.6.4291327034#3192#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327034#3210#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327034#3267#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327034#3310#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327034#3377#63#0(1@0"0(13@23" | payment of any fee.291327034#3440#23#0(1@0"0(13@31" | Executable name is pngcrush291327034#3463#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327034#3494#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327034#3544#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327034#3612#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327034#3670#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327034#3717#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327034#3777#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327034#3840#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327034#3879#77#0(1@0"0(13@101"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox.png291327034#3957#101#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1650291327034#4058#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1844291327034#4117#59#0(1@0"0(13@144"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox-pngcrush.png291327034#4176#144#0(1@0"0(13@28"     (11.76% IDAT increase)291327034#4320#28#0(1@0"0(13@32"     (12.30% filesize increase)291327034#4348#32#0(1@0"0(13@50"   CPU time used = 0.005 seconds (decoding 0.000,291327034#4381#50#0(1@0"0(13@47"          encoding 0.001, other 0.004 seconds)291327034#4431#47#0(1@0"0(13@118"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/closebox.png291327034#4479#118#0(1@0"0(13@18" | pngcrush 1.6.4291327034#4598#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327034#4616#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327034#4673#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327034#4716#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327034#4783#63#0(1@0"0(13@23" | payment of any fee.291327034#4846#23#0(1@0"0(13@31" | Executable name is pngcrush291327034#4869#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327034#4900#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327034#4950#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327034#5018#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327034#5076#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327034#5123#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327034#5183#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327034#5246#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327034#5285#77#0(1@0"0(13@100"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default.png291327034#5363#100#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =    90856291327034#5463#59#0(1@0"0(13@35"   Adding an opaque alpha channel.291327034#5522#35#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =    90594291327034#5557#59#0(1@0"0(13@143"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default-pngcrush.png291327034#5616#143#0(1@0"0(13@28"     (0.29% IDAT reduction)291327034#5759#28#0(1@0"0(13@32"     (0.27% filesize reduction)291327034#5787#32#0(1@0"0(13@50"   CPU time used = 0.752 seconds (decoding 0.010,291327034#5820#50#0(1@0"0(13@47"          encoding 0.729, other 0.013 seconds)291327034#5870#47#0(1@0"0(13@117"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Default.png291327034#5918#117#0(1@0"0(13@18" | pngcrush 1.6.4291327034#6036#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327034#6054#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327034#6111#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327034#6154#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327034#6221#63#0(1@0"0(13@23" | payment of any fee.291327034#6284#23#0(1@0"0(13@31" | Executable name is pngcrush291327034#6307#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327034#6338#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327034#6388#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327034#6456#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327034#6514#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327034#6561#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327034#6621#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327034#6684#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327034#6723#77#0(1@0"0(13@109"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo.png291327034#6801#109#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =    87739291327034#6910#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =    39199291327035#6969#59#0(1@0"0(13@152"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo-pngcrush.png291327035#7028#152#0(1@0"0(13@29"     (55.32% IDAT reduction)291327035#7180#29#0(1@0"0(13@33"     (55.32% filesize reduction)291327035#7209#33#0(1@0"0(13@50"   CPU time used = 0.342 seconds (decoding 0.013,291327035#7243#50#0(1@0"0(13@47"          encoding 0.313, other 0.016 seconds)291327035#7293#47#0(1@0"0(13@126"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/default_app_logo.png291327035#7341#126#0(1@0"0(13@18" | pngcrush 1.6.4291327035#7468#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327035#7486#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327035#7543#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327035#7586#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327035#7653#63#0(1@0"0(13@23" | payment of any fee.291327035#7716#23#0(1@0"0(13@31" | Executable name is pngcrush291327035#7739#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327035#7770#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327035#7820#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327035#7888#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327035#7946#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327035#7993#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327035#8053#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327035#8116#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327035#8155#77#0(1@0"0(13@96"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq.png291327035#8233#96#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1241291327035#8329#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1270291327035#8388#59#0(1@0"0(13@139"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq-pngcrush.png291327035#8447#139#0(1@0"0(13@27"     (2.34% IDAT increase)291327035#8586#27#0(1@0"0(13@31"     (0.97% filesize increase)291327035#8613#31#0(1@0"0(13@50"   CPU time used = 0.007 seconds (decoding 0.000,291327035#8645#50#0(1@0"0(13@47"          encoding 0.003, other 0.004 seconds)291327035#8695#47#0(1@0"0(13@113"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/faq.png291327035#8743#113#0(1@0"0(13@18" | pngcrush 1.6.4291327035#8857#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327035#8875#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327035#8932#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327035#8975#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327035#9042#63#0(1@0"0(13@23" | payment of any fee.291327035#9105#23#0(1@0"0(13@31" | Executable name is pngcrush291327035#9128#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327035#9159#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327035#9209#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327035#9277#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327035#9335#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327035#9382#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327035#9442#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327035#9505#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327035#9544#77#0(1@0"0(13@97"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join.png291327035#9622#97#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     4583291327035#9719#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4626291327035#9778#59#0(1@0"0(13@140"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join-pngcrush.png291327035#9837#140#0(1@0"0(13@27"     (0.94% IDAT increase)291327035#9977#27#0(1@0"0(13@31"     (0.72% filesize increase)291327035#10004#31#0(1@0"0(13@50"   CPU time used = 0.007 seconds (decoding 0.000,291327035#10036#50#0(1@0"0(13@47"          encoding 0.003, other 0.004 seconds)291327035#10086#47#0(1@0"0(13@114"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/join.png291327035#10134#114#0(1@0"0(13@18" | pngcrush 1.6.4291327035#10249#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327035#10267#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327035#10324#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327035#10367#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327035#10434#63#0(1@0"0(13@23" | payment of any fee.291327035#10497#23#0(1@0"0(13@31" | Executable name is pngcrush291327035#10520#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327035#10551#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327035#10601#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327035#10669#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327035#10727#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327035#10774#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327035#10834#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327035#10897#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327035#10936#77#0(1@0"0(13@103"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map.png291327035#11014#103#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1588291327035#11117#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1556291327035#11176#59#0(1@0"0(13@146"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map-pngcrush.png291327035#11235#146#0(1@0"0(13@28"     (2.02% IDAT reduction)291327035#11381#28#0(1@0"0(13@32"     (0.50% filesize reduction)291327035#11409#32#0(1@0"0(13@50"   CPU time used = 0.007 seconds (decoding 0.000,291327035#11442#50#0(1@0"0(13@47"          encoding 0.003, other 0.004 seconds)291327035#11492#47#0(1@0"0(13@120"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/KS_nav_map.png291327035#11540#120#0(1@0"0(13@18" | pngcrush 1.6.4291327035#11661#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327035#11679#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327035#11736#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327035#11779#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327035#11846#63#0(1@0"0(13@23" | payment of any fee.291327035#11909#23#0(1@0"0(13@31" | Executable name is pngcrush291327035#11932#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327035#11963#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327035#12013#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327035#12081#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327035#12139#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327035#12186#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327035#12246#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327035#12309#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327035#12348#77#0(1@0"0(13@110"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background.png291327035#12426#110#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =   420304291327035#12536#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =   445297291327036#12595#59#0(1@0"0(13@153"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background-pngcrush.png291327036#12654#153#0(1@0"0(13@27"     (5.95% IDAT increase)291327036#12807#27#0(1@0"0(13@31"     (5.91% filesize increase)291327036#12834#31#0(1@0"0(13@50"   CPU time used = 0.742 seconds (decoding 0.028,291327036#12866#50#0(1@0"0(13@47"          encoding 0.681, other 0.033 seconds)291327036#12916#47#0(1@0"0(13@127"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/tribes_background.png291327036#12964#127#0(1@0"0(13@18" | pngcrush 1.6.4291327036#13092#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson291327036#13110#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs291327036#13167#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably291327036#13210#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without291327036#13277#63#0(1@0"0(13@23" | payment of any fee.291327036#13340#23#0(1@0"0(13@31" | Executable name is pngcrush291327036#13363#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is291327036#13394#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)291327036#13444#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,291327036#13512#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,291327036#13570#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,291327036#13617#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),291327036#13677#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.291327036#13740#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).291327036#13779#77#0(1@0"0(13@123"   Recompressing /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault.png291327036#13857#123#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     3933291327036#13980#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     5972291327036#14039#59#0(1@0"0(13@166"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault-pngcrush.png291327036#14098#166#0(1@0"0(13@28"     (51.84% IDAT increase)291327036#14264#28#0(1@0"0(13@32"     (51.03% filesize increase)291327036#14292#32#0(1@0"0(13@50"   CPU time used = 0.028 seconds (decoding 0.003,291327036#14325#50#0(1@0"0(13@47"          encoding 0.017, other 0.007 seconds)291327036#14375#47#0(1@0"0(13@140"iphoneos-optimize: Optimized PNG: /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/modules/ui/images/photoDefault.png291327036#14423#140#0(1@0"0(0#0#0"4301200840#16601"    cd /Applications/first/build/iphone    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER nmil    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Applications/first/build/iphone/build    setenv BUILD_ROOT /Applications/first/build/iphone/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Applications/first/build/iphone/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502    setenv CCHROOT /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app    setenv CODE_SIGN_ENTITLEMENTS Resources/Entitlements.plist    setenv CODE_SIGN_IDENTITY "Don't Code Sign"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Applications/first/build/iphone/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH first.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources    setenv DERIVED_FILE_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/first.dst    setenv DWARF_DSYM_FILE_NAME first.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Applications/first/build/iphone/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH first.app/Executables    setenv EXECUTABLE_FOLDER_PATH first.app    setenv EXECUTABLE_NAME first    setenv EXECUTABLE_PATH first.app/first    setenv FILE_LIST /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH first.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Applications/first/build/iphone/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME first.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER first_Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "__LOG__ID__=ef8f7a32-ed9e-4f97-beec-683766ea9334 DEPLOYTYPE=development DEBUG=1"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30000"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Applications/first/build/iphone/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH first.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/first.dst/Users/nmil/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER nmil    setenv INSTALL_PATH /Users/nmil/Applications    setenv INSTALL_ROOT /tmp/first.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH first.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Applications/first/build/iphone/build/Debug-iphonesimulator\"  \"/Applications/first/build/iphone\" Resources"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects-normal/i386/first.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1062    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0602    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects    setenv OBJECT_FILE_DIR_normal /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Objects-normal    setenv OBJROOT /Applications/first/build/iphone/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework UIKit -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH first.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/PkgInfo    setenv PKGINFO_PATH first.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH first.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH first.app/PrivateHeaders    setenv PRODUCT_NAME first    setenv PRODUCT_SETTINGS_PATH /Applications/first/build/iphone/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT first    setenv PROJECT_DERIVED_FILE_DIR /Applications/first/build/iphone/build/first.build/DerivedSources    setenv PROJECT_DIR /Applications/first/build/iphone    setenv PROJECT_FILE_PATH /Applications/first/build/iphone/first.xcodeproj    setenv PROJECT_NAME first    setenv PROJECT_TEMP_DIR /Applications/first/build/iphone/build/first.build    setenv PUBLIC_HEADERS_FOLDER_PATH first.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Applications/first/build/iphone/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH first.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk    setenv SDK_NAME iphonesimulator3.0    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Applications/first/build/iphone/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH first.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH first.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Applications/first/build/iphone    setenv SRCROOT /Applications/first/build/iphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/SymbolRepositories    setenv SYMROOT /Applications/first/build/iphone/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME first    setenv TARGET_BUILD_DIR /Applications/first/build/iphone/build/Debug-iphonesimulator    setenv TARGET_NAME first    setenv TARGET_TEMP_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build    setenv TEMP_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build    setenv TEMP_FILES_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build    setenv TEMP_FILE_DIR /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build    setenv TEMP_ROOT /Applications/first/build/iphone/build    setenv UID 502    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH first.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER nmil    setenv USER_APPS_DIR /Users/nmil/Applications    setenv USER_LIBRARY_DIR /Users/nmil/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH first.app/version.plist    setenv VERSION_INFO_BUILDER nmil    setenv VERSION_INFO_FILE first_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:first  PROJECT:first-\""    setenv WEB_SRC_ROOT /Applications/first/build/iphone/tmp    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME first.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/Script-B4EA72B50FBC96AA005AA7FB.sh0#
+
+CProcessInfoPlistFile /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Info.plist Info.plist
+s291327032.023661
+e291327032.110859
+r1
+xProcessInfoPlistFile
+x/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist291327032#291327032#0(0"0(0#0#43"/Applications/first/build/iphone/Info.plist28429445101453416#449"    cd /Applications/first/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app/Info.plist0#
+
+CProcessPCH /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/first_Prefix-crvgldzbcdesiveeewsdecvcaidt/first_Prefix.pch.gch first_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s291327040.226025
+e291327043.900620
+r1
+xProcessPCH
+x/var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/first_Prefix-crvgldzbcdesiveeewsdecvcaidt/first_Prefix.pch.gch
+xfirst_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile first_Prefix.pch291327040#291327043#0(0"0(0#0#49"/Applications/first/build/iphone/first_Prefix.pch4301200840#1737"    cd /Applications/first/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=ef8f7a32-ed9e-4f97-beec-683766ea9334 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.0.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-generated-files.hmap -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-own-target-headers.hmap -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-all-target-headers.hmap -iquote /Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/first-project-headers.hmap -F/Applications/first/build/iphone/build/Debug-iphonesimulator -I/Applications/first/build/iphone/build/Debug-iphonesimulator/include -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources/i386 -I/Applications/first/build/iphone/build/first.build/Debug-iphonesimulator/first.build/DerivedSources -c /Applications/first/build/iphone/first_Prefix.pch -o /var/folders/-S/-S4C0P4bEniSSDBGPIQk2++++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/first_Prefix-crvgldzbcdesiveeewsdecvcaidt/first_Prefix.pch.gch0#
+
+CTouch /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app
+s291327045.809489
+e291327045.823768
+r1
+xTouch
+x/Applications/first/build/iphone/build/Debug-iphonesimulator/first.app
+lSLF07#2@76"Touch /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app291327045#291327045#0(0"0(0#0#0"4301200840#264"    cd /Applications/first/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Applications/first/build/iphone/build/Debug-iphonesimulator/first.app0#
+

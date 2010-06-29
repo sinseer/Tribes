@@ -1,0 +1,53 @@
+<html>
+<head>
+<script type="text/javascript">
+function displaymessage()
+{
+
+var db = Titanium.Database.open('mydb7');
+var rows = db.execute('SELECT * FROM DATABASETEST');
+
+abc = rows.fieldByName('latitude');
+
+rows.close();
+return abc;
+}
+
+function displaymessage1()
+{
+var db = Titanium.Database.open('mydb7');
+var rows = db.execute('SELECT * FROM DATABASETEST');
+
+abc1 = rows.fieldByName('longitude');
+
+rows.close();
+return abc1;
+}
+
+function displaymessage2()
+{
+var db = Titanium.Database.open('mydb7');
+var rows = db.execute('SELECT * FROM DATABASETEST');
+
+abc2 = rows.fieldByName('tribe');
+
+rows.close();
+return abc2;
+}
+
+
+</script>
+</head>
+
+<body>
+<form action="http://seer.vndv.com/set_text_iphone.php" method="POST">
+Latitude <input type="text"  name="data" onfocus="value = displaymessage()" readonly="readonly"/> <br>
+Longitude <input type="text"  name="data1" onfocus="value = displaymessage1()" readonly="readonly"/> <br>
+Tribe name <input type="text"  name="data2" onfocus="value = displaymessage2()" readonly="readonly"/> <br>
+Your Twitter ID Please <input type="text"  name="data3" onfocus="value = displaymessage3()" /> <br>
+
+
+</form>
+
+</body>
+</html>

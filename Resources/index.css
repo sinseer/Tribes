@@ -1,0 +1,16 @@
+body
+{
+	background-color:#d0e4fe;
+	color:#bbb;
+	font-family:sans-serif;
+}
+
+h1,h2
+{
+	color:#900;
+}
+
+p
+{
+	margin-bottom:20px;
+}

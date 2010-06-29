@@ -1,0 +1,83 @@
+<html>
+<head>
+
+<script type="text/javascript">
+
+
+function dis()
+{
+				
+				xmlHttp = null;
+				
+				xmlHttp = new XMLHttpRequest();
+
+
+				
+				var data = null;
+				
+				var rows = null;
+				
+				var db = null;
+				
+				var coords =null;
+				
+                var data1 = null;
+				
+                var data2 = null;
+				
+				var url = null;
+				
+				db = Titanium.Database.open('mydb7');
+
+				rows = db.execute('SELECT * FROM DATABASETEST');
+
+				data = rows.fieldByName('tribe');
+				
+				rows.close();
+				
+				Titanium.Geolocation.accuracy = Titanium.Geolocation.ACCURACY_KILOMETER;
+				Titanium.Geolocation.distanceFilter = 5;
+
+                Titanium.Geolocation.watchPosition(
+                function(pos)
+                {
+				
+                coords = pos.coords;
+                data1 = coords.latitude;
+                data2 = coords.longitude;
+			
+				
+				//tribe.innerHTML = 'You Joined tribe ' + data;
+      			//latitude.innerHTML = 'Your Latitude: ' + data1;
+	    		//longitude.innerHTML = 'Your Longitude: ' + data2;
+
+				});
+				url="http://seer.vndv.com/set_text_iphone3.php";
+				
+				url = url+"?data="+data+"&data1="+data1+"&data2="+data2;
+				
+				//Titanium.UI.createAlertDialog({title:'Search Bar', message:'You typed ' + url }).show();
+				
+				xmlHttp.open("GET",url,true);
+				xmlHttp.send(null);
+
+				setTimeout("dis()",30000);
+
+};
+
+</script>
+</head>
+
+<body onload="dis();">
+
+<div style="height:20px" id="tribe"></div> <br>
+<div style="height:20px" id="longitude"></div> 
+<div style="height:20px" id="latitude"></div> 
+
+<font size="3" face="Times" color="green">
+<b>Cool. You are a member of Tribes now! Remember, you can stick with this Tribe or join another or go to the website to create one of your own. </b><br>
+<br><b> Remember, you can choose whether your tweets are visible on your main Twitter page or only on Tribes. </b> <br><br>
+</font>
+
+</body>
+</html>

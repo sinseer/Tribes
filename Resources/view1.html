@@ -1,0 +1,110 @@
+<html>
+    <head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<script type="text/javascript">
+
+    
+xmlHttp = null;
+var body;
+var strt;
+var response;
+var data;
+var data_original;
+var db;
+var rows = null;
+                var tribe;
+                var latitude;
+                var longitude;
+				var coords;
+var win;
+
+window.onload = function()
+{
+db = Titanium.Database.open('mydb7');
+
+				//rows = db.execute('SELECT * FROM DATABASETEST');
+				rows = db.execute("SELECT name FROM sqlite_master WHERE name='DATABASETEST'");
+
+//				Titanium.UI.createAlertDialog({title:'Welcome Note', message: 'Hello' + rows.rowCount}).show();
+
+				if(rows.rowCount == 0)
+				{
+				Titanium.UI.createAlertDialog({title:'Welcome Note', message:'Welcome to Tribes!' }).show();
+				}
+				
+				else
+				{
+				rows = db.execute('SELECT * FROM DATABASETEST');
+				data = rows.fieldByName('tribe');
+				var a = Titanium.UI.createAlertDialog({title:'Tribes',message:'Join last tribe '+data+' again?',buttonNames:['OK','Cancel']});
+				a.show();
+				
+				var b = Titanium.UI.createAlertDialog({buttonNames:['OK']});
+				b.setTitle('Tribes');
+				
+				a.addEventListener('click',function(e)
+					{
+					if (e.index == 0)
+						{
+						b.setMessage('You clicked OK, so you are back on tribe '+data);
+						Titanium.Analytics.featureEvent('views.composite.1');
+						var win = Titanium.UI.createWindow({url:'view9.html',title:'Join Tribe?'});
+						win.open({animated:true});
+
+						}
+					else
+						{
+						b.setMessage('You clicked Cancel, so why not join other tribe');
+						}
+						b.show();
+					});
+				}
+		
+				rows.close();		
+
+}
+
+</script>
+
+<script>
+function redir(page) 
+{
+ Titanium.Analytics.featureEvent('views.composite.1');
+ win = Titanium.UI.createWindow({url:page});
+ win.open({animated:true});
+// Titanium.UI.createAlertDialog({title:'TRYING', message: 'TRYING'}).show();	 
+}
+</script>
+
+
+</head>
+
+<body>
+
+<img src="welcome_image.png" width="300" height="370" ismap usemap="#mymap"/>
+
+<map name="mymap">
+<area shape="rect" coords="0,150,300,200" 
+onClick="redir('view2_1.html')" alt="Join tribe">
+
+<area shape="rect" coords="0,210,300,260" 
+onClick="redir('index_1.html')" alt="watch tribe">
+
+<area shape="rect" coords="0,270,300,320" onClick="redir('view.html')" alt="Tweet">
+
+<area shape="rect" coords="0,335,300,360" 
+onClick="redir('http://www.azmuchotaco.com/dmtz87/tribesSite/index.html')" alt="Make a tribe">
+
+</map>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+

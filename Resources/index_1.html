@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Select to locate Tribe!</title>
+
+<script type="text/javascript">
+
+var map;    
+xmlHttp = null;
+var strt;
+var response;
+xmlHttp1 = null;
+var strt1;
+var response1;
+var len;
+
+//function load()
+window.onload = function()
+{
+
+
+    xmlHttp = new XMLHttpRequest();
+
+    if (xmlHttp != null) 
+    {
+    xmlHttp.open("GET", "http://seer.vndv.com/tribe_name_iphone.txt");
+    xmlHttp.send(null);
+        
+    xmlHttp.onreadystatechange = function () 
+    {
+        strt = xmlHttp.responseText;
+        response = strt.split(",");
+		//response.sort();
+			var data;
+            data= [{title:response[0], hasChild:false}];
+            for(i=1;i<response.length-1;i++)
+            {
+                data = data.concat({title:response[i], hasChild:false});            
+            }
+			var body = Titanium.UI.createTableView({data:data,},
+            function(eventObject)
+            {
+				var idx = eventObject.index;
+                switch(idx)
+                {
+                default:
+					xmlHttp1 = new XMLHttpRequest();
+                    if (xmlHttp1 != null) 
+                    {
+						Titanium.API.notice( eventObject.rowData.title );
+                        var page_open = "http://seer.vndv.com/" + eventObject.rowData.title +"_textfile_iphone.txt";
+						
+                        xmlHttp1.open("GET", page_open);
+                        xmlHttp1.send(null);
+                        xmlHttp1.onreadystatechange = function () 
+                        {
+						   						
+                            strt1 = xmlHttp1.responseText;
+                            response1 = strt1.split("#");
+							len = response1.length;
+						
+//						    Titanium.UI.createAlertDialog({title:'Search Bar', message:len}).show();
+						}
+							var db = Titanium.Database.open('mydb6');
+			
+							//db.execute('DROP TABLE DATABASETEST');
+
+							var rows = db.execute('CREATE TABLE IF NOT EXISTS DATABASETEST (LATITUDE FLOAT,LONGITUDE FLOAT)');
+							
+							db.execute('DELETE FROM DATABASETEST');
+		
+							
+							for( var i = 2; i < 11; i = i + 2 ) 
+							
+							{
+								Titanium.API.notice(response1[len-i-1]);	
+								db.execute('INSERT INTO DATABASETEST (LATITUDE,LONGITUDE) VALUES(?,?)',response1[len-i-1],response1[len-i]);
+								//count = count+1;
+							}
+							
+							rows.close();
+		
+							
+							Titanium.Analytics.featureEvent('views.composite.1');
+							var win = Titanium.UI.createWindow({url:'view7.html'});
+							Titanium.API.notice( 'trace' );
+							win.open({animated:true});
+						
+							
+						
+                    }
+                break;
+                }    
+            });
+                
+        var views = Titanium.UI.currentWindow.getViews();
+		if (Titanium.Platform.name == 'android') {
+			body.setFilterAttribute("title");
+		}
+
+		
+		var compositeView = Titanium.UI.createCompositeView();
+		compositeView.addView(body,{top:0,left:0});
+
+		// add and show the view
+		Titanium.UI.currentWindow.addView(compositeView);
+		Titanium.UI.currentWindow.showView(compositeView);
+    }
+}
+
+};
+
+</script>
+</head>
+
+<!--<body onload="load()" onunload="GUnload()">-->
+<!--<div id="map" style="width: 1000px; height: 500px"></div>-->
+
+<body> 
+<!--<div id="result"></div> --> 
+<!--<div id="textfield" style="height:50px;width:100%"></div> -->
+<div id="map" style="width: 1000px; height: 500px"></div>
+
+
+</body>
+</html>
+
+

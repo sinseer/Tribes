@@ -1,0 +1,100 @@
+<html>
+<head>
+<script type="text/javascript">
+window.onload = function()
+{
+
+var db = Titanium.Database.open('mydb6');
+var rows = db.execute('SELECT * FROM DATABASETEST limit 1');
+abc = rows.fieldByName('latitude');
+abc1 = rows.fieldByName('longitude');
+
+var rows1 = db.execute('SELECT * FROM DATABASETEST limit 1 offset 1');
+abc2 = rows1.fieldByName('latitude');
+abc3 = rows1.fieldByName('longitude');
+
+if(abc2==null || abc3==null)
+{
+abc2=abc;
+abc3=abc1;
+}
+
+var rows2 = db.execute('SELECT * FROM DATABASETEST limit 1 offset 2');
+abc4 = rows2.fieldByName('latitude');
+abc5 = rows2.fieldByName('longitude');
+
+if(abc4==null || abc5==null)
+{
+abc4=abc;
+abc5=abc1;
+}
+
+var rows3 = db.execute('SELECT * FROM DATABASETEST limit 1 offset 3');
+abc6 = rows3.fieldByName('latitude');
+abc7 = rows3.fieldByName('longitude');
+
+if(abc6==null || abc7==null)
+{
+abc6=abc;
+abc7=abc1;
+}
+
+var rows4 = db.execute('SELECT * FROM DATABASETEST limit 1 offset 4');
+abc8 = rows4.fieldByName('latitude');
+abc9 = rows4.fieldByName('longitude');
+
+if(abc8==null || abc9==null)
+{
+abc8=abc;
+abc9=abc1;
+}
+							
+var mapview = Titanium.Map.createView({
+mapType: Titanium.Map.STANDARD_TYPE,
+region: {latitude:abc, longitude:abc1, latitudeDelta:0.01, longitudeDelta:0.01},
+animate:true,
+regionFit:true,
+userLocation:true,
+annotations:[{
+					latitude:abc,
+					longitude:abc1,
+					pincolor:Titanium.Map.ANNOTATION_RED,
+					animate:true},
+					{
+					latitude:abc2,
+					longitude:abc3,
+					pincolor:Titanium.Map.ANNOTATION_RED,
+					animate:true},
+					{
+					latitude:abc4,
+					longitude:abc5,
+					pincolor:Titanium.Map.ANNOTATION_PURPLE,
+					animate:true},
+					{
+					latitude:abc6,
+					longitude:abc7,
+					pincolor:Titanium.Map.ANNOTATION_GREEN,
+					animate:true},
+					{
+					latitude:abc8,
+					longitude:abc9,
+					pincolor:Titanium.Map.ANNOTATION_GREEN,
+					animate:true}
+					]
+});
+Titanium.UI.currentWindow.addView(mapview);
+Titanium.UI.currentWindow.showView(mapview);
+
+
+rows.close();
+rows1.close();
+rows2.close();
+rows3.close();
+rows4.close();
+}
+</script>
+</head>
+
+<body>
+</body>
+</html>
