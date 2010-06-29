@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><ti:app xmlns:ti="http://ti.appcelerator.org">
+<id>com.caiges.tribes</id>
+<name>first</name>
+<version>1.0</version>
+<icon>tribes iphone icon.jpg</icon>
+<persistent-wifi>true</persistent-wifi>
+<analytics>false</analytics>
+    <windows>
+		<window>
+            <id>Welcome</id>
+            <url>view1.html</url>
+			<title>Welcome</title>   
+			<icon>welcome.png</icon>
+			<orientation>either</orientation>
+            <backgroundColor>#FFFFFF</backgroundColor>
+			 
+        </window> 
+		
+		<window>
+            <id>Join</id>
+            <url>view2.html</url>
+ 			<title>Find Tribes</title>            
+			<icon>join.png</icon>
+			<orientation>either</orientation>
+            <backgroundColor>#FFFFFF</backgroundColor>
+			
+        </window>         
+
+        <window>
+            <id>Maps</id>
+            <url>index.html</url>
+            <title>See tribes</title>
+            <icon>KS_nav_map.png</icon>
+			<orientation>either</orientation>
+			<backgroundColor>#111</backgroundColor>
+        </window>
+        <window>
+            <id>Twitter</id>
+            <url>view.html</url>
+ 			<title>Tweet</title>            
+			<icon>chat.png</icon>
+            <backgroundColor>#FFFFFF</backgroundColor>
+			<orientation>either</orientation>
+			<preload>true</preload> 
+        </window>                               
+
+        <window>
+            <id>FAQ</id>
+            <url>view8.html</url>
+ 			<title>FAQ</title>            
+			<icon>faq.png</icon>
+			<orientation>either</orientation>
+            <backgroundColor>#FFFFFF</backgroundColor>
+        </window> 
+	</windows>
+<guid>72636dd6-bab5-4136-8136-9381342b34b5</guid>
+</ti:app>
